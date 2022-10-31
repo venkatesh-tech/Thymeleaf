@@ -1,5 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/"> <!--Needed to use thymeleaf elements-->
+<head>
+<meta charset="UTF-8">
+<title>Data Renderer </title>
 	<body>
-		<b>Hello Thymeleaf!!</b>
+		<div th:text="${message}"></div> <!--th is the prefix used-->
 	</body>
+</head>
 </html>
